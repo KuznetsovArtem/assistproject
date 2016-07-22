@@ -1,0 +1,30 @@
+<p>
+  projects works!
+</p>
+
+
+<h3>Search</h3>
+
+<input type="text" pInputText>
+
+<input type="text">
+
+
+
+<!--<p-growl [value]="msgs"></p-growl>-->
+
+<p-dataTable [value]="projects">
+  <p-column field="id" header="id"></p-column>
+  <p-column field="name" header="Name"></p-column>
+  <p-column field="summary" header="Brand"></p-column>
+  <p-column field="details" header="Details"></p-column>
+    <!--<template let-col let-proj="rowData">-->
+      <!--<span [style.color]="proj[col.field]">{{proj[col.field]}}</span>-->
+    <!--</template>-->
+  <!--</p-column>-->
+  <!--<p-column styleClass="col-button">-->
+    <!--<template let-car="rowData">-->
+      <!--<button type="button" pButton (click)="selectProject(project)" icon="fa-search"></button>-->
+    <!--</template>-->
+  <!--</p-column>-->
+</p-dataTable>
